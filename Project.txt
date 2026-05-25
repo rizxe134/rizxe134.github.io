@@ -1,0 +1,24 @@
+<div class="project-row" data-cat="physics">
+        <span class="proj-num">008</span>
+        <div class="proj-info">
+          <h3>Elastic Collision Solver</h3>
+          <p>Analytical solver for 1D and 2D elastic/inelastic collisions with conservation of momentum verification and energy checks.</p>
+        </div>
+        <div class="proj-tags"><span class="tag physics">NumPy</span><span class="tag physics">Dynamics</span></div>
+      </div>
+      <div class="project-row" data-cat="physics">
+        <span class="proj-num">009</span>
+        <div class="proj-info">
+          <h3>Spring-Mass System Visualizer</h3>
+          <p>Interactive SHM simulation with configurable damping, spring constants and driving frequency rendered in JavaScript canvas.</p>
+        </div>
+        <div class="proj-tags"><span class="tag physics">JavaScript</span><span class="tag physics">SHM</span></div>
+      </div>
+      <div class="project-row" data-cat="physics">
+        <span class="proj-num">010</span>
+        <div class="proj-info">
+          <h3>Wave Pulse Propagation Model</h3>
+          <p>Simulation of transverse wave pulses on strings under variable tension. Models v = sqrt(T/u) with animated Matplotlib output.</p>
+        </div>
+        <div class="proj-tags"><span class="tag physics">Matplotlib</span><span class="tag physics">Waves</span></div>
+      </div>

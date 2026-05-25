@@ -1,0 +1,66 @@
+<div class="blog-grid">
+      <div class="blog-main">
+        <div class="blog-post">
+          <div class="post-meta"><span class="post-date">May 18, 2026</span><span class="post-cat hw">Hardware</span></div>
+          <h3>Getting an ESP32 to Serve a Live Sensor Dashboard Over Wi-Fi</h3>
+          <p>No external server needed. The ESP32 runs a tiny HTTP server from flash, serving JSON to a plain HTML/JS frontend. Here's the exact setup: AsyncWebServer, ArduinoJson, and why you must avoid blocking code in loop()...</p>
+          <span class="post-read">Read more &#8594;</span>
+        </div>
+        <div class="blog-post">
+          <div class="post-meta"><span class="post-date">May 02, 2026</span><span class="post-cat">Mechanics</span></div>
+          <h3>Why the Parallel Axis Theorem Is More Intuitive Than It Looks</h3>
+          <p>I = I_cm + Md^2 is introduced as a rule to memorise, but the geometric intuition is beautiful. Every rotation is a combination of spinning in place and orbiting a point. The theorem just separates those contributions...</p>
+          <span class="post-read">Read more &#8594;</span>
+        </div>
+        <div class="blog-post">
+          <div class="post-meta"><span class="post-date">Apr 20, 2026</span><span class="post-cat sw">Software</span></div>
+          <h3>Python vs C++ on a Raspberry Pi: When Does It Actually Matter?</h3>
+          <p>For most GPIO toggling and web serving, Python is fast enough. But real-time sensor sampling at high rates? That's where C++ starts earning its keep. Here's a practical comparison with actual timing numbers...</p>
+          <span class="post-read">Read more &#8594;</span>
+        </div>
+        <div class="blog-post">
+          <div class="post-meta"><span class="post-date">Apr 05, 2026</span><span class="post-cat">Mechanics</span></div>
+          <h3>Pulse Speed on a String: What Tension Really Controls</h3>
+          <p>v = sqrt(T/u) is easy to memorise. Understanding why speed scales with the square root of tension &mdash; and what linear density represents physically &mdash; is much more interesting. The mechanism is in how neighbouring segments communicate...</p>
+          <span class="post-read">Read more &#8594;</span>
+        </div>
+        <div class="blog-post">
+          <div class="post-meta"><span class="post-date">Mar 18, 2026</span><span class="post-cat sw">Software</span></div>
+          <h3>Writing a Cross-Platform Desktop App: Java vs C# in 2026</h3>
+          <p>Both work well. But they feel very different to write and deploy. Java's write-once-run-anywhere still holds up, while C# with .NET 8 has genuinely closed the gap on Linux. My honest take after shipping apps in both...</p>
+          <span class="post-read">Read more &#8594;</span>
+        </div>
+      </div>
+      <div class="blog-sidebar">
+        <div class="sidebar-widget">
+          <div class="widget-title">Topics</div>
+          <div class="tag-cloud">
+            <button class="tag-btn">Mechanics</button>
+            <button class="tag-btn">ESP32</button>
+            <button class="tag-btn">Raspberry Pi</button>
+            <button class="tag-btn">Python</button>
+            <button class="tag-btn">C++</button>
+            <button class="tag-btn">Arduino</button>
+            <button class="tag-btn">Java</button>
+            <button class="tag-btn">JavaScript</button>
+            <button class="tag-btn">Linux</button>
+            <button class="tag-btn">IoT</button>
+            <button class="tag-btn">SHM</button>
+            <button class="tag-btn">Physics</button>
+          </div>
+        </div>
+        <div class="sidebar-widget">
+          <div class="widget-title">Recent Posts</div>
+          <ul class="recent-list">
+            <li class="recent-item">ESP32 Live Sensor Dashboard</li>
+            <li class="recent-item">Parallel Axis Theorem Intuition</li>
+            <li class="recent-item">Python vs C++ on Raspberry Pi</li>
+            <li class="recent-item">Pulse Speed on a String</li>
+            <li class="recent-item">Java vs C# Cross-Platform in 2026</li>
+          </ul>
+        </div>
+        <div class="sidebar-widget">
+          <div class="widget-title">About This Blog</div>
+          <p style="font-family:var(--mono);font-size:0.71rem;color:var(--text-dim);line-height:1.7;">Physics student, software developer, hardware tinkerer. Writing about whatever I'm building or breaking this week.</p>
+        </div>
+      </div>
