@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Riz — Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<nav>
+  <a class="nav-logo" href="index.html">RIZ<span>.IO</span></a>
+  <ul class="nav-links">
+    <li><a href="index.html" class="active">Home</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="future.html">Future</a></li>
+    <li><a href="blog.html">Blog</a></li>
+    <li><a href="about.html">About</a></li>
+  </ul>
+</nav>
+
+<main>
+  <section class="hero">
+    <div class="hero-grid"></div>
+    <div class="container" style="width:100%">
+      <div class="hero-content">
+        <div class="hero-tag">Physics &middot; Software &middot; Hardware</div>
+        <h1 class="hero-name">Hello,<br>I'm <em>Riz</em></h1>
+        <p class="hero-desc">
+          // Physics &amp; engineering student by day.<br>
+          // Software developer across every platform by night.<br>
+          // From quantum mechanics to Raspberry Pi GPIO &mdash;<br>
+          // I build things that bridge the physical and digital.
+        </p>
+        <div class="hero-cta">
+          <a class="btn" href="projects.html">View Projects</a>
+          <a class="btn btn-ghost" href="about.html">About Me</a>
+        </div>
+      </div>
+    </div>
+    <div class="hero-orb"></div>
+  </section>
+
+  <div class="container">
+    <div class="home-pillars">
+      <div class="pillar">
+        <div class="pillar-icon">⚛</div>
+        <div class="pillar-title">Physics &amp; Engineering</div>
+        <div class="pillar-desc">Classical mechanics, wave physics, rotational dynamics, SHM &mdash; rigorous analytical and computational work.</div>
+      </div>
+      <div class="pillar">
+        <div class="pillar-icon">💻</div>
+        <div class="pillar-title">Software Development</div>
+        <div class="pillar-desc">Python &middot; Java &middot; C++ &middot; C# &middot; JavaScript &middot; HTML/CSS &mdash; cross-platform apps for Linux, Windows &amp; macOS.</div>
+      </div>
+      <div class="pillar">
+        <div class="pillar-icon">🔌</div>
+        <div class="pillar-title">Embedded &amp; Hardware</div>
+        <div class="pillar-desc">Raspberry Pi &middot; Arduino &middot; ESP32 &mdash; sensors, GPIO, firmware and IoT systems built from scratch.</div>
+      </div>
+    </div>
+
+    <div class="stats-row">
+      <div class="stat"><span class="stat-num">12+</span><span class="stat-label">Projects</span></div>
+      <div class="stat"><span class="stat-num">7</span><span class="stat-label">Languages</span></div>
+      <div class="stat"><span class="stat-num">3</span><span class="stat-label">HW Platforms</span></div>
+      <div class="stat"><span class="stat-num">3</span><span class="stat-label">OS Targets</span></div>
+    </div>
+
+    <div class="home-featured">
+      <div class="section-header">
+        <span class="section-num">01/</span>
+        <h2 class="section-title">Featured Work</h2>
+      </div>
+      <div class="featured-grid">
+        <a class="feat-card" href="projects.html">
+          <div class="feat-card-tag">📡 ESP32 &middot; C++</div>
+          <h3>ESP32 IoT Sensor Dashboard</h3>
+          <p>Real-time sensor monitoring with a web UI served directly from the ESP32. Reads temperature, humidity and motion over GPIO. The dashboard auto-refreshes via JavaScript fetch &mdash; no external server required.</p>
+          <div class="feat-arrow">&#8594;</div>
+        </a>
+        <div class="feat-stack">
+          <a class="feat-card" href="projects.html">
+            <div class="feat-card-tag">⚙ Python &middot; Physics</div>
+            <h3>Rotational Dynamics Simulator</h3>
+            <p>Moment of inertia modelling using the parallel axis theorem.</p>
+            <div class="feat-arrow">&#8594;</div>
+          </a>
+          <a class="feat-card" href="projects.html">
+            <div class="feat-card-tag">🍓 Raspberry Pi &middot; Linux</div>
+            <h3>Pi Home Automation Hub</h3>
+            <p>Python daemon controlling relays and sensors via GPIO with a REST API.</p>
+            <div class="feat-arrow">&#8594;</div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="footer-copy">&copy; 2026 Riz &mdash; All rights reserved</div>
+  <div class="footer-links">
+    <a class="footer-link" href="about.html">Contact</a>
+    <a class="footer-link" href="blog.html">Blog</a>
+  </div>
+</footer>
+
+</body>
+</html>

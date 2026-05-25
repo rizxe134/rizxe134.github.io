@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects — Riz</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<nav>
+  <a class="nav-logo" href="index.html">RIZ<span>.IO</span></a>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="projects.html" class="active">Projects</a></li>
+    <li><a href="future.html">Future</a></li>
+    <li><a href="blog.html">Blog</a></li>
+    <li><a href="about.html">About</a></li>
+  </ul>
+</nav>
+
+<main class="page-content">
+  <div class="container">
+    <div class="page-heading">
+      <div class="page-eyebrow">Current Projects</div>
+      <h1 class="page-title">Built &amp;<br>Completed</h1>
+      <p class="page-sub">Physics simulations, cross-platform software, and embedded hardware projects. Filter by category below.</p>
+    </div>
+
+    <div class="filter-tabs">
+      <button class="filter-tab active" onclick="filterProjects('all',this)">All</button>
+      <button class="filter-tab" onclick="filterProjects('physics',this)">Physics</button>
+      <button class="filter-tab" onclick="filterProjects('software',this)">Software</button>
+      <button class="filter-tab" onclick="filterProjects('hardware',this)">Hardware</button>
+    </div>
+
+    <div class="projects-list">
+      <div class="project-row" data-cat="hardware">
+        <span class="proj-num">001</span>
+        <div class="proj-info">
+          <h3>ESP32 IoT Sensor Dashboard</h3>
+          <p>Real-time sensor monitoring with a web UI served from the ESP32 itself. Reads temp, humidity and motion via GPIO. Written in C++.</p>
+        </div>
+        <div class="proj-tags"><span class="tag hardware">C++</span><span class="tag hardware">ESP32</span></div>
+      </div>
+      <div class="project-row" data-cat="hardware">
+        <span class="proj-num">002</span>
+        <div class="proj-info">
+          <h3>Raspberry Pi Home Automation Hub</h3>
+          <p>Python daemon on Linux managing relay boards, motion sensors and scheduling via GPIO. REST API for remote control from any device.</p>
+        </div>
+        <div class="proj-tags"><span class="tag hardware">Python</span><span class="tag hardware">RPi</span></div>
+      </div>
+      <div class="project-row" data-cat="hardware">
+        <span class="proj-num">003</span>
+        <div class="proj-info">
+          <h3>Arduino Data Logger</h3>
+          <p>Analog sensor data logger storing timestamped readings to SD card. Configurable sampling rate with serial plotter output.</p>
+        </div>
+        <div class="proj-tags"><span class="tag hardware">C++</span><span class="tag hardware">Arduino</span></div>
+      </div>
+      <div class="project-row" data-cat="software">
+        <span class="proj-num">004</span>
+        <div class="proj-info">
+          <h3>Cross-Platform File Organizer</h3>
+          <p>Desktop app in C# (.NET) that auto-sorts downloads by type, date and project. Runs on Windows, macOS and Linux from one codebase.</p>
+        </div>
+        <div class="proj-tags"><span class="tag software">C#</span><span class="tag software">.NET</span></div>
+      </div>
+      <div class="project-row" data-cat="software">
+        <span class="proj-num">005</span>
+        <div class="proj-info">
+          <h3>Physics Problem Web App</h3>
+          <p>Interactive HTML/CSS/JavaScript tool for solving and visualising kinematics and collision problems step-by-step in the browser.</p>
+        </div>
+        <div class="proj-tags"><span class="tag software">JavaScript</span><span class="tag software">HTML/CSS</span></div>
+      </div>
+      <div class="project-row" data-cat="software">
+        <span class="proj-num">006</span>
+        <div class="proj-info">
+          <h3>Java Gradebook CLI</h3>
+          <p>Command-line gradebook in Java with CSV import/export, weighted grade calculation and performance analytics. Cross-platform.</p>
+        </div>
+        <div class="proj-tags"><span class="tag software">Java</span><span class="tag software">CLI</span></div>
+      </div>
+      <div class="project-row" data-cat="physics">
+        <span class="proj-num">007</span>
+        <div class="proj-info">
+          <h3>Rotational Dynamics Simulator</h3>
+          <p>Python/NumPy model for moment of inertia across complex body configurations using the parallel axis theorem.</p>
+        </div>
+        <div class="proj-tags"><span class="tag physics">Python</span><span class="tag physics">Mechanics</span></div>
+      </div>
+      <div class="project-row" data-cat="physics">
+        <span class="proj-num">008</span>
+        <div class="proj-info">
+          <h3>Elastic Collision Solver</h3>
+          <p>Analytical solver for 1D and 2D elastic/inelastic collisions with conservation of momentum verification and energy checks.</p>
+        </div>
+        <div class="proj-tags"><span class="tag physics">NumPy</span><span class="tag physics">Dynamics</span></div>
+      </div>
+      <div class="project-row" data-cat="physics">
+        <span class="proj-num">009</span>
+        <div class="proj-info">
+          <h3>Spring-Mass System Visualizer</h3>
+          <p>Interactive SHM simulation with configurable damping, spring constants and driving frequency rendered in JavaScript canvas.</p>
+        </div>
+        <div class="proj-tags"><span class="tag physics">JavaScript</span><span class="tag physics">SHM</span></div>
+      </div>
+      <div class="project-row" data-cat="physics">
+        <span class="proj-num">010</span>
+        <div class="proj-info">
+          <h3>Wave Pulse Propagation Model</h3>
+          <p>Simulation of transverse wave pulses on strings under variable tension. Models v = sqrt(T/u) with animated Matplotlib output.</p>
+        </div>
+        <div class="proj-tags"><span class="tag physics">Matplotlib</span><span class="tag physics">Waves</span></div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="footer-copy">&copy; 2026 Riz</div>
+  <div class="footer-links"><a class="footer-link" href="future.html">Future Projects &#8594;</a></div>
+</footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>
